@@ -1,0 +1,14 @@
+﻿{
+ "$schema": "/App_Plugins/manifestSchema.json",
+ "propertyEditors": [ 
+                         {
+                             "alias": "tooorangey.NameSync",
+                             "name": "Name Sync",
+                             "editor": {
+                                         "view": "~/App_Plugins/tooorangey.namesync/sinkingfeeling.html",
+                                         "valueType": "STRING"
+                                        }
+                        }
+                    ],
+  "javascript": [ "~/App_Plugins/tooorangey.namesync/sinkingfeeling.controller.js" ]
+}
